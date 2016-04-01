@@ -1,0 +1,30 @@
+{
+  "name": "ultra-tiny-compiler",
+  "version": "0.0.1",
+  "description": "Ultra Tiny Compiler",
+  "main": "readme.js",
+  "scripts": {
+    "test": "mocha --compilers coffee:coffee-script/register --require should tests.litcoffee",
+    "prepublish": "coffee -c readme.litcoffee"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elfet/ultra-tiny-compiler.git"
+  },
+  "keywords": [
+    "ultra",
+    "tiny",
+    "compiler"
+  ],
+  "author": "Anton Medvedev <anton@medv.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elfet/ultra-tiny-compiler/issues"
+  },
+  "homepage": "https://github.com/elfet/ultra-tiny-compiler",
+  "devDependencies": {
+    "coffee-script": "^1.10.0",
+    "mocha": "^2.4.5",
+    "should": "^8.3.0"
+  }
+}
