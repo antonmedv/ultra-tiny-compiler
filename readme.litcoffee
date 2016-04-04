@@ -8,7 +8,7 @@ You can install it via `npm install ultra-tiny-compiler`.
 
 What this compiler can do?
 
-##### Exapmles
+##### Examples
 
 | Input               | Output                 |
 |---------------------|------------------------|
