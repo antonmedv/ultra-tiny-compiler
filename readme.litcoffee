@@ -60,12 +60,12 @@ It is possible for a recursive-descent parser to loop forever. A problem arises 
 
 A left-recursive production can be eliminated by rewriting the offending production:
 
-_A_ → _A_⍺ | β
+_A_ → _A_ ⍺ | β
 
 Into right-recursive production:
 
-_A_ → β_R_  
-_R_ → ⍺_R_ | ∅
+_A_ → β _R_  
+_R_ → ⍺ _R_ | ∅
 
 Using this technique we can transform our grammer into new grammar:
 
