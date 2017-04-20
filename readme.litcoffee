@@ -3,7 +3,7 @@
 This is Ultra Tiny Compiler for any C-like expression into lisp.  
 If remove all comments, source code will be less then **<90** lines of actual code. 
 By the way, you are viewing source code itself (yes, this readme file also is source code).
-It's written in [literate coffescript](http://coffeescript.org/#literate) and fully [tested](tests.litcoffee) [![Build Status](https://travis-ci.org/elfet/ultra-tiny-compiler.svg?branch=master)](https://travis-ci.org/elfet/ultra-tiny-compiler) and published on [npm](https://www.npmjs.com/package/ultra-tiny-compiler). 
+It's written in [literate coffescript](http://coffeescript.org/#literate) and fully [tested](tests.litcoffee) [![Build Status](https://travis-ci.org/antonmedv/ultra-tiny-compiler.svg?branch=master)](https://travis-ci.org/antonmedv/ultra-tiny-compiler) and published on [npm](https://www.npmjs.com/package/ultra-tiny-compiler). 
 You can install it via `npm install ultra-tiny-compiler`.
 
 What this compiler can do?
