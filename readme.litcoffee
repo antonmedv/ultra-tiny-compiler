@@ -296,4 +296,4 @@ Expose the world.
 
     module.exports = compile
 
-You can [try compiler online here](http://medv.io/en/ultra-tiny-compiler/).
+What's it. We just wrote out compiler.
