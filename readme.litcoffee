@@ -135,7 +135,7 @@ We need a function which will be giving us a token from a tokens stream. Let's c
 
       next = -> tokens.shift()
 
-Lookahead is very important part of our compiler. It's allowed as determine what kind of production we hitting next.
+Lookahead is very important part of our compiler. Allows to determine what kind of production we are hitting next.
 
       lookahead = next()
 
