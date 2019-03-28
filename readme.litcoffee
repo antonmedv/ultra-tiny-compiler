@@ -49,7 +49,7 @@ But we a going to simplify our compiler and combine parse phase with code genera
 To accomplish this we will use syntax-directed definitions (semantic actions) for translating expressions into postfix notation.
 
 _expr_ → _expr_ + _term_ {puts("+")}  
-_expr_ → _expr_ + _term_ {puts("-")}  
+_expr_ → _expr_ - _term_ {puts("-")}  
 _atom_ → [a-z0-9]+ {puts(_atom_)}  
 ...  
 
